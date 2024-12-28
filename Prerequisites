@@ -1,0 +1,12 @@
+1. **Hardware Requirements:**
+   - A camera (CCTV or IP camera with RTSP support).
+   - Raspberry Pi or a computer with a GPU (for real-time processing).
+   - IoT sensors (optional for environmental data monitoring).
+   
+2. **Software Requirements:**
+   - Python 3.8 or later.
+   - OpenCV (Computer Vision Library).
+   - TensorFlow/PyTorch (Deep Learning Framework).
+   - Flask/Django (For web application).
+   - Node.js (For real-time dashboard updates).
+   - MongoDB/MySQL (Database for storing logs).
