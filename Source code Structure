@@ -1,0 +1,15 @@
+```plaintext
+smart-monitoring-system/
+├── backend/
+│   ├── app.py                # Flask/Django server
+│   ├── models/               # AI models (trained weights, scripts)
+│   ├── utils/                # Utility functions (e.g., video processing, alerting)
+│   └── templates/            # HTML templates (if using Flask)
+├── frontend/
+│   ├── public/               # Static files (images, icons)
+│   ├── src/                  # React/Angular source code
+│   └── package.json          # Frontend dependencies
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+└── .env                      # Environment variables
+```
