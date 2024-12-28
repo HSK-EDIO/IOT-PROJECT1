@@ -11,6 +11,25 @@ The Smart Monitoring System leverages Artificial Intelligence (AI) to enable aut
 - Cloud-based storage: Secure and scalable storage for video data and logs.
 - Mobile and web dashboard: User-friendly interfaces to monitor the system remotely.
 
+
+## Contribution Guidelines
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push the branch.
+4. Submit a Pull Request (PR) with detailed descriptions.
+
+---
+
+## Future Enhancements
+- Integrate advanced NLP for voice-based alerts.
+- Add edge computing support for low-latency processing.
+- Expand support for multiple IoT sensors.
+
+---
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
   
 
 
