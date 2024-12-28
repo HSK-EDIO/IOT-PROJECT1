@@ -1,0 +1,10 @@
+### Components:
+1. **Camera Integration**: Stream video data using RTSP.
+2. **AI Engine**: Run models for face recognition, object detection, and anomaly detection.
+3. **Alert System**: Send email/SMS alerts using APIs like Twilio or SMTP.
+4. **Database**: Store logs, user information, and system configurations.
+5. **Dashboard**: View real-time data and logs on a web/mobile interface.
+
+![Architecture Diagram](https://via.placeholder.com/800x400?text=Architecture+Diagram)
+
+---
