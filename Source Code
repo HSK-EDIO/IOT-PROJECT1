@@ -1,0 +1,63 @@
+## AI Models
+
+### 1. Face Recognition
+- **Model**: Pre-trained models like FaceNet or Dlib.
+
+
+- **Implementation**: Using python
+
+import face_recognition
+
+# Load known and unknown images
+known_image = face_recognition.load_image_file("known.jpg")
+unknown_image = face_recognition.load_image_file("unknown.jpg")
+
+# Encode faces
+known_encoding = face_recognition.face_encodings(known_image)[0]
+unknown_encoding = face_recognition.face_encodings(unknown_image)[0]
+
+# Compare faces
+results = face_recognition.compare_faces([known_encoding], unknown_encoding)
+print("Match found:" if results[0] else "No match")
+```
+
+### 2. Anomaly Detection
+- **Model**: Custom-trained CNN on specific datasets.
+
+- **Implementation**: Using python
+
+import tensorflow as tf
+
+# Load the model
+model = tf.keras.models.load_model("anomaly_model.h5")
+
+# Predict anomalies
+prediction = model.predict(frame)
+if prediction > 0.5:
+    print("Anomaly detected")
+```
+
+---
+
+## Dashboard
+
+- **Framework**: React.js or Angular.
+- **Features**:
+  - Real-time video feed.
+  - Event logs.
+  - Configuration panel for alerts and permissions.
+
+Example UI Code (React):
+```jsx
+import React from 'react';
+
+function Dashboard() {
+    return (
+        <div>
+            <h1>Smart Monitoring Dashboard</h1>
+            <video src="/api/stream" controls></video>
+        </div>
+    );
+}
+
+export default Dashboard;
