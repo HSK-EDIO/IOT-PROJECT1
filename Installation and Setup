@@ -1,0 +1,48 @@
+### 1. Clone the Repository
+```bash
+# Clone the repository
+$ git clone https://github.com/username/smart-monitoring-system.git
+$ cd smart-monitoring-system
+```
+
+### 2. Install Dependencies
+
+#### Backend
+```bash
+# Install Python dependencies
+$ pip install -r requirements.txt
+```
+
+#### Frontend
+```bash
+# Navigate to the frontend folder
+$ cd frontend
+
+# Install dependencies
+$ npm install
+```
+
+### 3. Configure the Environment Variables
+Create a `.env` file in the root directory and add the following variables:
+```env
+DB_URI=your_database_uri
+SECRET_KEY=your_secret_key
+CAMERA_RTSP_URL=your_camera_rtsp_stream_url
+EMAIL_ALERT=your_email@example.com
+EMAIL_PASSWORD=your_email_password
+```
+
+### 4. Run the Application
+#### Backend
+```bash
+# Start the backend server
+$ python app.py
+```
+#### Frontend
+```bash
+# Navigate to the frontend directory
+$ cd frontend
+
+# Start the frontend server
+$ npm start
+```
